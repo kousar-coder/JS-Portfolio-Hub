@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #001e4d;
+    color: #fff;
+}
+
+.app {
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.app h1 {
+    color: #001e4d;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 20px;
+    color: #001e4d;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    background: #fff;
+    color: #001e4d;
+    font-weight: 500;
+    border: 2px solid #001e4d;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #001e4d;
+    color: #fff;
+}
+
+.info {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-btn, .restart-btn {
+    background: #001e4d;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: none;
+}
+
+.next-btn:hover, .restart-btn:hover {
+    background: #004a99;
+}
